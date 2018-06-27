@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>justify-content练习</title>
+    <style>
+        .box {
+            display: flex; /*定义了一个flex容器，里面的子元素称为flex项目*/
+            justify-content: space-around;
+            width: 60%;
+            border : 1px solid #ccc;
+            margin:0.5em 0.2em 0 0.2em;
+        }
+        .item {
+            color:#fff;
+            background: #000;
+            text-align: center;
+            padding: 0.2em 0.5em;
+            margin: 0.5em;
+            min-height: 1em;
+        }
+        label {
+            padding: 2px 4px;
+            font-size: 90%;
+            color: gray;
+            background-color: #f9f2f4;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <label for="box1" id="my-label">justify-content:space-around; </label>
+    <div class="box" id="box1">
+        <div class="item">1 An ounce of.</div>
+        <div class="item">2 过早的优化。</div>
+        <div class="item">3 UNIX很简单。</div>
+    </div>
+</div>
+</body>
+</html>
+

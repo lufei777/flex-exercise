@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> order练习</title>
+    <style>
+        .box {
+            display: flex;
+            border : 1px solid #ccc;
+            margin:0.5em;
+        }
+        .item {
+            color:#fff;
+            background: #000;
+            padding: 0.5em;
+            margin: 0.5em;
+            text-align: center;
+        }
+        .code {
+            padding: 2px 4px;
+            font-size: 90%;
+            color: #c7254e;
+            background-color: #f9f2f4;
+            border-radius: 4px;
+        }
+        #item1 {
+            order:0;
+        }
+        #item2 {
+            order: -1;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <div class="box">
+        <div class="item" id="item1">1 <br /><span id="span1" class="code">order : 0</span></div>
+        <div class="item" id="item2">2 <br /><span id="span2" class="code">order : -1</span></div>
+    </div>
+</div>
+</body>
+</html>
+

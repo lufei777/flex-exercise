@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>align-items</title>
+    <style>
+        .box {
+            display: flex;
+            align-items: center;
+            border : 1px solid #ccc;
+            margin:0.5em;
+        }
+        .item {
+            color:#fff;
+            background: #000;
+            padding: 0.5em 1em;
+            margin: 0.5em;
+            text-align: center;
+        }
+        .height4 {
+            padding-top: 1em;
+            min-height: 4em;
+        }
+        .height6 {
+            padding-top: 2em;
+            min-height: 6em;
+        }
+        label {
+            padding: 2px 4px;
+            font-size: 90%;
+            color: gray;
+            background-color: #f9f2f4;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <label for="box1" id="my-label">align-items: center; </label>
+    <div class="box" id="box1">
+        <div class="item">1 简 </div>
+        <div class="item height4">2 过早的优化是罪恶之源。</div>
+        <div class="item height6">3 简单不先于复杂，而是在复杂之后。</div>
+    </div>
+</div>
+</body>
+</html>
+
